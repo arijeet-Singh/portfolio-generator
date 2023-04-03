@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+.exp-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+}
+.exp-icon-prop {
+  width: 60%;
+  height: 60%;
+  object-fit: contain;
+}
+.exp-title {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: -10px;
+  text-align: left;
+  background: transparent;
+  height: fit-content;
+  background: -webkit-linear-gradient(45deg, #c6ffdd, #fbd786, #f7797d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.exp-company {
+  font-size: 16px;
+  text-align: left;
+  /* font-family: sans-serif; */
+  font-family: "Source Sans Pro", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #aaa6c3;
+  letter-spacing: 1px;
+  margin-top: -10px;
+  background: transparent;
+}
+.exp-list {
+  background: transparent;
+}
+.exp-list > li {
+  text-align: left;
+  list-style: disc;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.list-item {
+  color: #f3f3f3;
+  font-size: 16px;
+  background: transparent;
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: "Source Sans Pro", sans-serif;
+  padding-left: 1px;
+}
+
+.container-exp {
+  background: transparent;
+}
+.element {
+  background: transparent;
+}
+.exp-map {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  background: transparent;
+}
+.idk {
+  margin-top: 100px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  background: transparent;
+}
+.exp-what {
+  letter-spacing: 2px;
+  font-size: 18px;
+  text-align: left;
+  margin-bottom: -40px;
+  text-transform: uppercase;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  color: #aaa6c3;
+  font-size: medium;
+  background: transparent;
+  /* background: transparent; */
+  /* background-color: aqua; */
+}
+.exp-exp {
+  letter-spacing: 0.05em;
+  font-size: 65px;
+  text-align: left;
+
+  background: -webkit-linear-gradient(45deg, #c6ffdd, #fbd786, #f7797d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

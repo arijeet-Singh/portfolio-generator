@@ -1,0 +1,49 @@
+.hero {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hero-heading {
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 45px;
+}
+.hero-bigger-heading {
+  font-size: 80px;
+}
+.typewriter {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -50px;
+}
+.typewriter h1 {
+  color: #fff;
+  font-size: 80px;
+  overflow: hidden;
+  border-right: 0.15em solid orange;
+  white-space: nowrap;
+  margin: 0 auto;
+  animation: typing 1s steps(30, end), blink-caret 0.5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}

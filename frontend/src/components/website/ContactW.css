@@ -1,0 +1,23 @@
+.contact-con {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.haha {
+  margin-left: auto;
+  margin-right: auto;
+}
+.qwerty {
+  background: transparent;
+}
+.details-con,
+.em,
+.ph {
+  background: transparent;
+  color: white;
+  text-align: left;
+  margin-left: 5px;
+}
+.details-con {
+  margin-top: -30px;
+}

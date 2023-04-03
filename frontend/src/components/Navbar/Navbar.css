@@ -1,0 +1,31 @@
+.Navbar {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 98%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.logo {
+  width: fit-content;
+}
+.logo-heading {
+  border: 1px solid white;
+  padding: 2px;
+}
+.sections {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  font-size: 20px;
+}
+
+.section-li {
+  padding-top: 14px;
+}
+a {
+  color: #dfd9ff;
+  text-decoration: none;
+}
